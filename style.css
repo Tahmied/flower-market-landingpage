@@ -52,3 +52,43 @@ nav {
 .nav-item:hover {
     color: black;
 }
+
+/* hero section */
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+.hero-main {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #000000;
+}
+
+.highlight {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #E95A08;
+}
+
+.hero-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-right img {
+    max-width: 35.625rem;
+}
+
