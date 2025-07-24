@@ -169,3 +169,53 @@ nav {
     margin: 1rem auto;
     padding-bottom: 2rem;
 }
+
+/* section three */
+
+.three-container {
+    max-width: 1300px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    gap: 2rem;
+}
+
+.three-left {
+    position: relative;
+}
+
+.three-left-img {
+    max-width: 33.75rem;
+}
+
+.trusted-badge {
+    position: absolute;
+    top:  -130px;
+    right: -130px;
+    max-width: 286px;
+}
+
+.three-right {
+    padding: 0 0 1rem 0;
+    width: 50%;
+}
+
+.three-heading {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.three-list-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
