@@ -92,3 +92,80 @@ nav {
     max-width: 35.625rem;
 }
 
+/* plants section */
+
+.plants-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.single-plant {
+    max-width: 270px ;
+}
+
+.plant-descrption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    gap: 10px;
+}
+
+.plant-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    leading-trim: both;
+    text-edge: cap;
+    color: #111111;
+}
+
+.plant-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    leading-trim: both;
+    text-edge: cap;
+    color: #111111;
+}
+
+.add-to-cart {
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 50px;
+    gap: 10px;
+    width: 270px;
+    height: 50px;
+    background: #E95A08;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    leading-trim: both;
+    text-edge: cap;
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin: 1rem auto;
+    padding-bottom: 2rem;
+}
