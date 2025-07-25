@@ -321,6 +321,7 @@ nav {
     color: #000000;
     text-align: left;
     margin-bottom: 1rem;
+    max-width: 500px;
 }
 
 .three-list-item {
@@ -330,6 +331,81 @@ nav {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+@media ( max-width : 1300px ) {
+    .three-container {
+        width: 80%;
+    }
+
+    .three-left-img {
+        width: 80%;
+    }
+
+    .trusted-badge {
+        position: absolute;
+        top:  -100px;
+        right: 0px;
+        max-width: 200px;
+    }
+
+    .three-heading {
+        font-size: 40px;
+    }
+
+    .three-list-item {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width : 1024px) {
+    .three-container {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width:769px) {
+    .three-container {
+        flex-direction: column;
+    }
+    
+    .trusted-badge {
+        display: none;
+    }
+
+    .three-left {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .three-right {
+        width: 70%;
+    }
+
+    .three-heading {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .three-container {
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width : 426px) {
+    .three-heading {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .three-list-item {
+        font-size: 15px;
+    }
+
+}
+
 
 /* secrtion four */
 
