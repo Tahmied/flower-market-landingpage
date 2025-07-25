@@ -411,7 +411,7 @@ nav {
 
 .four-container {
     max-width: 1300px;
-    margin: 1rem auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: 0.5fr 1fr; 
     gap: 1rem;
@@ -583,6 +583,7 @@ nav {
     padding: 8px 20px;
     height: 50px;
     width: 80%;
+    max-width: 640px;
 }
 
 .email-input::placeholder {
@@ -614,6 +615,24 @@ nav {
     text-edge: cap;
     color: #FFFFFF;
 }
+
+@media ( max-width : 768px ) {
+    .newsletter-text {
+        font-size: 40px;
+    }
+}
+
+@media ( max-width : 426px ) {
+    .newsletter-text {
+        font-size: 25px;
+    }
+
+    .newsletter-submit {
+        width: 100px;
+        font-size: 14px;
+    }
+}
+
 
 /* footer */
 
