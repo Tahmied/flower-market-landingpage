@@ -261,6 +261,7 @@ nav {
     width: 70%;
     margin: 1rem auto;
     padding-bottom: 2rem;
+    max-width: 1000px;
 }
 
 @media (max-width:801px) {
@@ -881,4 +882,17 @@ nav {
 
 .nav-item:hover .cart-icon {
   transform: rotate(-15deg) scale(1.1);
+}
+
+.trusted-badge {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform : rotate(0deg)
+    } 
+    to {
+        transform: rotate(360deg);
+    }
 }

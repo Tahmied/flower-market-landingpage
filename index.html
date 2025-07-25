@@ -16,7 +16,7 @@
                 <li><a href="#" id="active-nav-item" class="nav-item">Home</a></li>
                 <li><a href="#" class="nav-item">Shop</a></li>
                 <li><a href="#" class="nav-item">About US</a></li>
-                 <li><a href="#" class="nav-item">
+                 <li><a id="cart-price" href="#" class="nav-item">
                     Cart ($56)
                     <img src="assets/cart-icon.svg" alt="" class="cart-icon">
                 </a></li>
@@ -264,6 +264,21 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        const addCartBtn = document.querySelectorAll('.add-to-cart')
+        const cartText = document.querySelector('#cart-price')
+        let price = 0;
+        addCartBtn.forEach(btn => {
+            btn.addEventListener('click' , (e)=>{
+                e.preventDefault()
+                alert('Flower Added to Cart')
+                price = price + 20;
+                cartText.innerHTML = `Cart (${price})`
+            })
+        })
+    </script>
 
 </body>
 </html>
