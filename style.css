@@ -695,3 +695,53 @@ nav {
     position: relative;
     top: 10px;
 }
+
+@media (max-width:1024px) {
+    .footer-container {
+        width: 80%;
+    }
+
+    .footer-description {
+        font-size: 18px;
+        max-width: 200px;
+    }
+
+    .footer-center {
+        gap: 30px;
+    }
+
+}
+
+@media ( max-width : 768px ) {
+
+    .footer-left {
+        gap:2rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-center {
+        gap: 1rem;
+    }
+
+    .footer-center {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 2rem 0;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+}
+
+@media ( max-width : 425px) {
+    .footer-link-item {
+        font-size: 16px;
+    }
+}
